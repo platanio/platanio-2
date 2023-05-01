@@ -1,6 +1,10 @@
-theme: jekyll-theme-minimal 
+plugins:
+  - jekyll-remote-theme
+
+theme: epidrome/cover-card@main
 title: Prof. Plataniotis N. Konstantinos
 description: Prof. Plataniotis's webpage
+
 
 
 # Images
@@ -10,12 +14,12 @@ favicon: 'favicon.ico'
 
 # Online profiles
 #dribbble: 'mydribbble'
-facebook: 'myfacebook'
-twitter: 'mytwitter'
+# facebook: 'myfacebook'
+# twitter: 'mytwitter'
 #linkedin: 'mylinkedin'
-instagram: 'myinsta'
+# instagram: 'myinsta'
 #pinterest: 'mypinterest'
-youtube: 'myyoutube'
+# youtube: 'myyoutube'
 github-user: 'mygithub'
 #gitlab-user: ''
 #codepen: ''
