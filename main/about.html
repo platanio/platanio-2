@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+  The above 2 meta tags *must* come first in the <head>
+  to consistently ensure proper document rendering.
+  Any other head element should come *after* these tags.
+ -->
+<title>Prof. Plataniotis N. Konstantinos</title>
+<!-- Set the base URL for all relative URLs within the document -->
+<base href="http://localhost:4000">
+
+<!--
+  Allows control over where resources are loaded from.
+  Place as early in the <head> as possible, as the tag  
+  only applies to resources that are declared after it.
+-->
+
+<!-- Short description of the document (limit to 150 characters) -->
+<!-- This content *may* be used as a part of search engine results. -->
+<meta name="description" content="Konstantinos (Kostas) N. Plataniotis received his B. Eng. degree in Computer Engineering from the University of Patras, Greece and his M.S. and Ph.D. degrees in Electrical Engineering from Florida Institute of Technology Melbourne, Florida. Dr. Plataniotis is currently a Professor with The Edward S. Rogers Sr. Department of Electrical and Computer Engineering at the University of Toronto in Toronto, Ontario, Canada, where he directs the Multimedia Laboratory. He has held the Bell Canada Endowed Chair in Multimedia since 2014. His research interests primarily include image/signal processing, machine learning and adaptive learning systems, visual data analysis, multimedia and knowledge media, and affective computing. Dr. Plataniotis is a Fellow of IEEE, a Fellow of the Engineering Institute of Canada, a Fellow of the Canadian Academy of Engineering / L’ Academie Canadienne Du Genie, and a registered professional engineer in Ontario.">
+
+<!-- Control the behavior of search engine crawling and indexing -->
+<meta name="robots" content="index,follow"><!-- All Search Engines -->
+<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+<!-- Verify website ownership -->
+<meta name="google-site-verification" content=""><!-- Google Search Console -->
+<meta name="yandex-verification" content=""><!-- Yandex Webmasters -->
+<meta name="msvalidate.01" content=""><!-- Bing Webmaster Center -->
+<meta name="alexaVerifyID" content=""><!-- Alexa Console -->
+<meta name="p:domain_verify" content=""><!-- Pinterest Console-->
+<meta name="norton-safeweb-site-verification" content=""><!-- Norton Safe Web -->
+
+<!-- Allows control over how referrer information is passed -->
+<meta name="referrer" content="no-referrer">
+
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=true">
+
+<!-- Completely opt out of DNS prefetching by setting to "off" -->
+<meta http-equiv="x-dns-prefetch-control" content="on">
+
+<!-- Geo tags -->
+<!-- meta name="ICBM" content="latitude, longitude"-->
+<!-- meta name="geo.position" content="latitude;longitude"-->
+<!-- meta name="geo.region" content="country[-state]"><Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
+<!-- meta name="geo.placename" content="city/town"><eg. content="New York City" -->
+
+<!-- Link to an external CSS file -->
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Courgette&family=Lobster&family=Pacifico&family=Yellowtail&family=Noto+Sans+JP:wght@400;900&family=Poppins:wght@500&family=Righteous&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/main.css">
+<!-- BootStrap CDN --> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="https://kit.fontawesome.com/32a2b2a489.js" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> 
+
+<!--  GIT TALK CDN  for comment system -->
+<!--
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> -->
+
+
+<!-- Provides information about an author or another person -->
+<link rel="me" href="mailto:kostas@ece.utoronto.ca">
+<link rel="me" href="sms:+">
+
+<!-- Open Search -->
+<!-- link rel="search" href="/open-search.xml" type="application/opensearchdescription+xml" title="Search Title" -->
+
+<!-- Feeds -->
+<!-- link rel="alternate" href="https://feeds.feedburner.com/example" type="application/rss+xml" title="RSS" -->
+<!-- link rel="alternate" href="https://example.com/feed.atom" type="application/atom+xml" title="Atom 0.3" -->
+
+<!-- For IE 10 and below -->
+<!-- Place favicon.ico in the root directory - no tag necessary -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+<link rel="mask-icon" href="/assets/img/icons/safari-pinned-tab.svg" color="#5bbad5">
+
+<meta property="fb:app_id" content="">
+<meta property="og:url" content="/about.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Get to know what I'm up too">
+<meta property="og:image" content="">
+<meta property="og:image:alt" content="">
+<meta property="og:description" content="Get to know what I'm up too">
+<meta property="og:site_name" content="My Campaign for IEEE SPS President">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@">
+<meta name="twitter:url" content="/about.html">
+<meta name="twitter:title" content="Get to know what I'm up too">
+<meta name="twitter:description" content="Get to know what I'm up too">
+<meta name="twitter:image" content="">
+<meta name="twitter:image:alt" content="">
+
+<!-- Used for adding in-document CSS -->
+
+
+
+<!-- JavaScript & No-JavaScript tags -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<!--
+<script>
+    $(document).ready(function() {
+        $(".toast").toast('show');
+    });
+</script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+
+<noscript>
+  <!-- No JS alternative -->
+</noscript>
+  <body>
+    
+<nav class="navbar navbar-expand-lg glowing-border mb-4" style="font-family:Poppins;background-color:#10292e;">
+  <a class="navbar-brand" href="/index.html"><h4 style="font-family:Noto Sans JP;font-weight:600;color:#149f98;">Prof. Plataniotis N. Konstantinos</h4></a>
+  <button class="navbar-toggler text-black" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-caret-down"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto justify-content-end">
+        
+              <li class="nav-item">
+                  <a href="about.html" class="nav-link" style="font-family:Poppins;color:#149f98;">My Campaign for IEEE SPS President</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="publications.html" class="nav-link" style="font-family:Poppins;color:#149f98;">Publications</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="blog.html" class="nav-link" style="font-family:Poppins;color:#149f98;">Blog</a>
+              </li>
+        
+    </ul>
+    <ul class="navbar-nav  justify-content-end">
+      <li class="nav-item">
+        
+<!-- Displays Social Media Icons based on _config.yml settings -->
+<span style="color:#CCCCCC;">
+    <i> &nbsp;&nbsp; </i>
+    
+    
+        <a href="https://github.com/platanio">
+        <span style="color: #CCCCCC;">
+            <i class="fab fa-github-square fa-lg"></i></a>
+        </span>
+    
+    
+        <a href="https://www.linkedin.com/in/kostas-plataniotis-b360811">
+        <span style="color: #CCCCCC;">
+            <i class="fab fa-linkedin fa-lg"></i></a>
+        </span>
+    
+    
+    
+    
+     
+    <i> &nbsp;&nbsp; </i>
+</span>
+
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <div class="container">
+      
+      <div class="card border-0">
+          <div class="card-body">
+            <p class="card-text">
+                <h1 class="mx-auto" style="font-family:Courgette;">My Campaign for IEEE SPS President</h1>
+<hr />
+
+<h3 id="background">Background</h3>
+
+<p style="text-align: justify;">
+Konstantinos (Kostas) N. Plataniotis received his B. Eng. degree in Computer Engineering from the University of Patras, Greece and his M.S. and Ph.D. degrees in Electrical Engineering from Florida Institute of Technology Melbourne, Florida. Dr. Plataniotis is currently a Professor with The Edward S. Rogers Sr. Department of Electrical and Computer Engineering at the University of Toronto in Toronto, Ontario, Canada, where he directs the Multimedia Laboratory. He has held the Bell Canada Endowed Chair in Multimedia since 2014. His research interests primarily include image/signal processing, machine learning and adaptive learning systems, visual data analysis, multimedia and knowledge media, and affective computing. Dr. Plataniotis is a Fellow of IEEE, a Fellow of the Engineering Institute of Canada, a Fellow of the Canadian Academy of Engineering / L' Academie Canadienne Du Genie, and a registered professional engineer in Ontario.
+</p>
+
+<p style="text-align: justify;">
+The recipient of numerous grants and research contracts as principal investigator, he speaks and writes extensively in his field and has been a consultant to several companies. He has been a lecturer in 12 short courses for industry and continuing education programs. He has co-authored more than 500 refereed publications, contributed to seventeen books, co-authored three, and edited two more volumes. He has guest-edited many special issues, including the IEEE Signal Processing Magazine (three times). In 2005 he received the IEEE Canada J.M. Ham Engineering Award for contributions to engineering education and inspirational guidance of graduate students. He is the joint recipient of the 2006 IEEE Trans. on Neural Networks Outstanding Paper Award. 
+</p>
+
+<p style="text-align: justify;">
+As a volunteer, Kostas has served in all three major boards of IEEE, at the society level and in regional units. His SPS service includes serving as SPS inaugural Vice President for Membership (2014-206), Signal Processing Letters Editor-in-Chief (2009-2011), Guest editor for SPM and TSIPN, and 2017 GlobalSIP, 2018 ICIP, 2021 ICASSP, and 2027 ICASSP General Co-Chair. At the IEEE level, he served on the IEEE Technical Activities Board's Periodical Review and Advisory Committee (PRAC), was a member of the IEEE Fourier Award committee, and is currently the chair of the IEEE Jack S. Kilby Signal Processing Medal committee. Kostas has served on the 2008 IEEE Educational Activities Board (EAB) and chaired the EAB's Continuing Professional Education Committee. He served on the IEEE Biometrics Council and chaired the 2009 Examination Committee for its certification program. He also served on the 2006 and 2007 IEEE Admissions and Advancement Committee. At the local level, Kostas served in the IEEE Toronto Section executive committee in various capacities for more than a dozen years, including his tenure as the 2004-2005 Chair. During his chairmanship, the Toronto Section was one of the largest IEEE regional units with approximately 4,000 members, including more than 600 students. 
+</p>
+
+<p><br />
+<br /></p>
+<h3 id="statement-of-interest">Statement of Interest</h3>
+
+<p style="text-align: justify;">
+The IEEE Signal Processing Society has been my professional home since 1991, and I have always cherished the opportunity to continue serving our community. The nomination for the post of SPS President-Elect humbles me. Within the term of office, I envision addressing the following priorities: 
+</p>
+
+<ul>
+  <li><strong>Serving our members</strong>:
+    <p style="text-align: justify;">As we celebrate our 75th anniversary and look to the future, we can confidently say that our society's membership will look different and much more diverse than today's. Members in different geographical regions, industries, and career stages will have different needs and priorities. We will develop personalized activities and services around individual members' needs to the extent possible. For example, SPS will support activities that combine networking and mentoring programs with customized education and help build project-focused communities quickly for specific purposes. We will use enabling technologies, including webinars and virtual meetings, to establish and promote public forums, possibly free-of-charge ecosystems, to exchange ideas, data, and research artifacts, engage practicing engineers, and collaborate with industry leaders.  We will intensify our investment and collaborate with IEEE and sister societies in offering services and solutions that address the educational and capacity-building needs of our current and future members by delivering microlearning opportunities and “stackable” credentials in emerging interdisciplinary areas. With new technologies making the interaction among our members more convenient, we will continue expanding our networking and mentoring programs to more underserved areas and underrepresented groups in our community. Diversity and inclusion are our moral and ethical responsibility and necessary conditions for sustainable, long-range growth.</p>
+  </li>
+  <li><strong>Funding</strong>:
+    <p style="text-align: justify;">SPS finances our community’s operations, offerings, and services to its members. Thus, continuing to operate in a self-sustainable way is paramount for the long-term viability of our professional home.  Dealing with the financial shortfall from the open-access initiative, accounting for the regional, membership-segment conference participation fee adjustments, financing new member services, and supporting membership-drive incentives impact SPS’ fiscal profile.  Still, some of our members’ conference fees are too high, and open-access publishing fees are unreasonably excessive given their circumstances, i.e., for those who transition between careers or are in a low-income region.  That said, SPS’s funding models do not need to be limited to membership subscriptions and conference and publication fees. In consultation with IEEE, we will explore income streams from sponsored activities, including support from corporate sponsors for conferences, public forums and special group activities, education and skills capacity offerings, monetization of applications related to “information summarization,” and use of “executable knowledge”.</p>
+  </li>
+  <li><strong>Governance structure</strong>:
+    <p style="text-align: justify;">SPS’ governance structure ensures that our goals and objectives are met. It should be future-focused and agile. We will expand our footprint and create new programs in emerging interdisciplinary areas such as data science, artificial intelligence, and machine learning. Moreover, as the submitted material is projected to increase, we will, in consultation with IEEE, experiment with partially automated initial vetting of submitted material while maintaining overall quality control at subsequent levels.  Keeping our volunteers engaged and their workload reasonable while maintaining our reputation as a trusted knowledge source is feasible and doable. </p>
+  </li>
+</ul>
+
+<!-- *This is an example of code*
+```js
+<script>
+    $(document).ready(function() {
+        $(".toast").toast('show');
+    });
+</script>
+``` -->
+
+            </p>
+            
+              <p class="card-text"><small class="text-muted">This page was last updated at 2023-05-02 21:58.</small></p>
+            
+          </div>
+      </div>
+      
+    </div>
+    <div class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container">
+    <p class="navbar-text pull-left">&copy; 2023 by Plataniotis N. Konstantinos. All rights reserved.
+    </p>
+    <p class="navbar-text pull-right">
+            <!-- Displays Social Media Icons based on _config.yml settings -->
+
+<span style="color: Black;">
+     
+    
+        <a href="https://github.com/platanio">
+        <span style="color: black;">
+            <i class="fab fa-github-square fa-lg"></i></a>
+        </span>
+    
+    
+        <a href="https://www.linkedin.com/in/kostas-plataniotis-b360811">
+        <span style="color: black;">
+            <i class="fab fa-linkedin fa-lg"></i></a>
+        </span>
+    
+    
+    
+    
+     
+    <i> &nbsp;&nbsp; </i>
+</span>
+
+    </p>
+  </div>
+</div> 
+
+<script>
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  })
+</script>
+  </body>
+</html>
